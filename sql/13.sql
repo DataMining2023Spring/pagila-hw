@@ -13,4 +13,5 @@ SELECT
     FROM film
     INNER JOIN language USING (language_id)
     WHERE title LIKE 'K%' OR title LIKE  'Q%' AND name = 'English'
+    ORDER BY title
     ;
