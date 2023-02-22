@@ -3,3 +3,10 @@
  * Use tables inventory and film.
  * Order by film title alphabetically.
  */
+
+SELECT film.film_id, film.title, COUNT(inventory.film_id)
+	FROM film JOIN inventory
+		USING(film_id)
+	WHERE film.title ~ '^H'
+	GROUP By film.film_id, film.title
+	ORDER BY film.title DESC;
