@@ -1,5 +1,5 @@
 # pagila-hw
-[![tests](https://github.com/DataMining2023Spring/pagila-hw/workflows/tests/badge.svg)](https://github.com/DataMining2023Spring/pagila-hw/actions?query=workflow%3Atests)
+[![tests](https://github.com/DataMining2023Spring/pagila-hw/workflows/tests/badge.svg)](https://github.com/DataMining2023Spring/pagila-hw/workflows/tests.yml)
 
 ## Background
 
